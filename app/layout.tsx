@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Cuadro de Mando Integral con Sostenibilidad",
   description: "Aplicación para gestionar y visualizar el Cuadro de Mando Integral con Sostenibilidad",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -26,3 +27,6 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+import './globals.css'
